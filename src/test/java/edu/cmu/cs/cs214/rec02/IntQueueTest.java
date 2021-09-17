@@ -35,6 +35,11 @@ public class IntQueueTest {
         mQueue = new LinkedIntQueue();
         // mQueue = new ArrayIntQueue();
     }
+//    check if the test works
+    @Test
+    public void testEnqueue(){
+        assertTrue(mQueue.enqueue(1));
+    }
 
     @Test
     public void testIsEmpty() {
